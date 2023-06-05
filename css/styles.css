@@ -1,0 +1,224 @@
+/* Bootsnip */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+	background-color: #ff4c68;
+}
+
+.header {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.Lbutton {
+  margin-right: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.Rbutton {
+  margin-bottom: 1.4rem;
+}
+
+.navbar {
+  margin-bottom: 3rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  margin: 0 1.5rem;
+}
+
+#imgHeader { 
+  transform: rotate(.436rad);
+  aspect-ratio: 1: 2.02;
+  width: 18.75rem;
+  position: relative;
+  left: 10%; /*Look up this meaning.*/
+}
+
+.allofFeatures {
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  bottom: 12.7rem;
+}
+
+#features {
+  padding-top: 12.7rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 66%;
+}
+
+.items1and2 {
+  margin-bottom: 3rem;
+}
+
+.featCenter > h3 {
+  font-size: 1.5rem;
+}
+
+.featCenter > p {
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+
+.col-lg-4 > .featCenter :last-child
+{
+  margin-bottom: 0;
+}
+
+div > svg {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+div > svg:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  color: #fff;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-item > h2 {
+  line-height: 1.5;
+  font-size: 2.7rem;
+  margin-bottom: 1.25rem;
+}
+
+.carousel-item > img {
+  border-radius: 50%;
+  width:10%;
+  aspect-ratio: 1/1;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#press > img {
+  width: 15%;
+  margin: 1.25rem 1.25rem 3.125rem;
+}
+
+#pricing {
+  padding: 6.25rem;
+  text-align: center;
+}
+
+.cardSpace {
+  padding: 3% 2%;
+}
+
+.myBtn {
+  width: 100%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  padding: 6rem;
+  margin-bottom: 2rem;
+}
+
+#cta > h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  width: 66%;
+  margin: 0 auto 2.5rem;
+}
+
+.ctaBtnContain {
+  text-align: center;
+}
+
+.ctaTopBtn {
+  margin-right: 2rem;
+}
+
+#footer {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+#footer > a {
+  margin: 0 1rem;
+}
+
+#footer > p {
+  margin-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ctaBtnSpacing {
+  margin-right: 1.5rem;
+}
+
+@media (max-width: 62rem) {
+  #title {
+    position: relative;
+    z-index: 1;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  #imgHeader { 
+    margin-top: 3rem;
+    transform: rotate(0);
+    left: 0;
+  }
+
+  .allofFeatures {
+    bottom: 0;
+  }
+
+  #features {
+    padding: 7rem 0;
+  }
+}
+
+@media (max-width: 67.9rem) and (min-width: 62.06rem) {
+  .allofFeatures {
+    bottom: 6rem;
+  }
+
+  #features {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 35.625rem) {
+  .ctaTopBtn {
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+}
